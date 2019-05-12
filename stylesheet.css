@@ -3,11 +3,7 @@
 }
 
 header {
-  height: 100%;
-  width: 120%;
-  padding-top: 200px;
   background-color: rgba(100, 150, 200, 0.9);
-  z-index: 100;
 }
 
 .title {
@@ -15,8 +11,6 @@ header {
 }
 
 .home {
-  height: 100%;
-  width: 120%;
   background-color: rgba(220, 220, 220, 0.9);
 }
 
