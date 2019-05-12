@@ -2,6 +2,29 @@
   font-family: "Hiragino Kaku Gothic ProN", sans-serif;
 }
 
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  z-index: 100;
+}
+
 h1 {
-  color: glay;
+  color: white;
+}
+
+.wallet p {
+  float: left;
+}
+
+.BlogButton {
+  
+}
+
+.GameButton {
+  
+}
+
+.enterButton {
+  
 }
