@@ -11,10 +11,14 @@ header {
 
 h1 {
   color: white;
+  padding: 100 0 10 20;
 }
 
 .wallet {
   float: right;
+}
+.wallet a {
+  float: left;
 }
 
 .BlogButton {
