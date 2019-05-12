@@ -5,7 +5,7 @@
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgba(100, 150, 200, 0.9);
   z-index: 100;
 }
 
@@ -14,17 +14,17 @@ h1 {
 }
 
 .wallet p {
-  float: left;
+  float: right;
 }
 
 .BlogButton {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(120, 210, 255, 0.3);
 }
 
 .GameButton {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(120, 210, 255, 0.3);
 }
 
 .enterButton {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(120, 210, 255, 0.3);
 }
