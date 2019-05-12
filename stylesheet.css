@@ -20,7 +20,7 @@ header {
 .wallet {
   float: right;
 }
-.wallet a {
+.wallet p {
   float: left;
 }
 
