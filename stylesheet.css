@@ -64,6 +64,11 @@ header {
 .center-wrapper {
   position:absolute;
   margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 120px;
   width: 55%;/*100-(left-wrapper width+right-wrapper width)*/
   background-color: rgba(0, 50, 50, 0.8);
 }
