@@ -14,7 +14,7 @@ p {
 header {
   height: 60px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -24,7 +24,7 @@ header {
 .main-wrapper {
   height: 100%;
   width: 100%;
-  background-image: url("images/image1.png");
+  background-color: rgba(0, 0, 10, 0.8);
 }
 
 
@@ -34,10 +34,11 @@ header {
   width: 27%;
   top: 60px;
   background-color: rgba(0, 0, 50, 0.8);
-  z-index: 100
+  z-index: 100;
 }
 .profile {
-  background-image: url("images/image1.png");
+  height: 700px;
+  background-color: rgba(50, 0, 0, 0.8);
 }
 .addxm {
   
@@ -67,5 +68,5 @@ header {
   z-index: 100;
 }
 .category {
-  background-image: url("images/image1.png");
+  background-color: rgba(0, 0, 50, 0.8);
 }
