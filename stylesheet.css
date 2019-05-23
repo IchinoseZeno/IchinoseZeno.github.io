@@ -17,13 +17,13 @@ p {
 header {
   height: 80px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(0, 0, 0, 0.7);
   position: fixed;
   top: 0;
   z-index: 1000;
 }
 .header-wrapper {
-  position: relative;
+  
 }
 
 .left-header {
@@ -32,14 +32,14 @@ header {
 
 .center-header a {
   position:absolute;
-  top: 10px;
+  top: 0;
   left: 0;
   right: 0;
-  bottom: 10px;
+  bottom: 0;
   margin: auto;
   width:300px;
-  height:100%;
-  background-color: rgba(20, 200, 200, 1);
+  height:70px;
+  background-color: rgba(200, 200, 200, 1);
 }
 
 .right-header {
