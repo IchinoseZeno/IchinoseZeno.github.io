@@ -13,7 +13,7 @@ p {
 }
 
 header {
-  height: 60px;
+  height: 80px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.9);
   position: fixed;
@@ -91,13 +91,13 @@ header {
 }
 .category-wrapper {
   position: relative;
-  border: 1px solid #aaa;
   height: 100%;
 }
 .category {
   position:absolute;
   top: 95%;
   height: 5%;
+  width: 100%;
   background-color: rgba(0, 20, 50, 0.9);
 }
 .category p {
