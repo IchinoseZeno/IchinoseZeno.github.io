@@ -15,9 +15,9 @@ p {
 }
 
 header {
-  height: 80px;
+  height: 72px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(115, 200, 215, 1);
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -26,11 +26,7 @@ header {
   
 }
 
-.left-header {
-  position:absolute;
-}
-
-.center-header a {
+.leftToCenter-header {
   position:absolute;
   top: 0;
   left: 0;
@@ -69,9 +65,9 @@ header {
 .addxm {
   height: 200px;
   background-color: rgba(40, 0, 0, 0.8);
-  background-image: url("https://ichinosezeno.github.io/images/image1.png")
-  background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */              
   width:auto;
+  background-image: url("image/image1.png");
+  background-size: cover;
 }
 .exxm {
   height: 200px;
