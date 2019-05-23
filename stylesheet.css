@@ -9,13 +9,15 @@ a {
 }
 
 p {
+  margin: 0;
+  padding: 0;
   color: rgba(180, 180, 180, 1);
 }
 
 header {
   height: 80px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.7);
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -39,7 +41,6 @@ header {
   height:100%;
 }
 .icon {
-  top: 10px;
   height: 60px;
   width: 300px;
   background-color: rgba(20, 200, 200, 1);
