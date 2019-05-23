@@ -65,8 +65,8 @@ header {
 .addxm {
   height: 200px;
   background-color: rgba(40, 0, 0, 0.8);
-  width:auto;
-  background-image: url("image/image1.png");
+  width:200px;
+  background-image: url("image/image2.png");
   background-size: cover;
 }
 .exxm {
@@ -112,5 +112,5 @@ header {
   background-color: rgba(0, 20, 50, 0.9);
 }
 .category p {
-  color: pink;
+  color: white;
 }
