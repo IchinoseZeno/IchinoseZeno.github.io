@@ -24,7 +24,7 @@ header {
 .left-header {
   
 }
-.icon {
+a.icon {
   background-color: rgba(20, 200, 200, 1);
 }
 
@@ -82,6 +82,7 @@ header {
 
 .right-wrapper {
   position:absolute;
+  position: relative;
   height: 2100px;
   width: 18%;
   top: 60px;
@@ -90,5 +91,8 @@ header {
   z-index: 100;
 }
 .category {
+  position:absolute;
+  bottom: 0;
+  height: 5%;
   background-color: rgba(0, 0, 50, 0.8);
 }
