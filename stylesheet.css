@@ -9,13 +9,13 @@ a {
 }
 
 p {
-  color: rgba(200, 180, 160, 1);
+  color: rgba(180, 180, 180, 1);
 }
 
 header {
   height: 60px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.9);
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -68,9 +68,9 @@ header {
   position:absolute;
   margin: 0;
   top: 120px;
-  right: auto;
+  right: 27%;
   width: 55%;/*100-(left-wrapper width+right-wrapper width)*/
-  background-color: rgba(0, 50, 50, 0.8);
+  background-color: rgba(100, 50, 50, 0.8);
 }
 .article-wrapper {
   
