@@ -24,7 +24,9 @@ header {
 .left-header {
   
 }
-a.icon {
+.icon {
+  height: 40px;
+  width: 70px;
   background-color: rgba(20, 200, 200, 1);
 }
 
@@ -35,9 +37,7 @@ a.icon {
 
 .main-wrapper {
   position: relative;
-  /*height: 100%;*/
-  /*width: 100%;*/
-  background-color: rgba(10, 10, 10, 1);
+  background-color: rgba(180, 180, 180, 1);
 }
 
 
