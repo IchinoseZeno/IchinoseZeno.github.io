@@ -9,7 +9,7 @@ a {
 }
 
 p {
-  color: rgba(180, 180, 180, 1);
+  color: rgba(200, 180, 160, 1);
 }
 
 header {
@@ -67,8 +67,8 @@ header {
 .center-wrapper {
   position:absolute;
   margin: 0;
-  padding-left: 0;
   top: 120px;
+  right: auto;
   width: 55%;/*100-(left-wrapper width+right-wrapper width)*/
   background-color: rgba(0, 50, 50, 0.8);
 }
