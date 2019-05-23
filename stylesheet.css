@@ -1,51 +1,59 @@
-* {
-  font-family: "Avenir Next", sans-serif;
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration:none;
+}
+
+p {
+  color:glay;
 }
 
 header {
-  background-color: rgba(100, 150, 200, 0.9);
+  height: 60px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 
-.title {
-  color: white;
-  font-size: 60px;
+
+.main-wrapper {
+  background-image: url(images/image1.png);
 }
 
-.home {
-  background-color: rgba(220, 220, 220, 0.9);
+
+.left-wrapper {
+  float:left;
+}
+.profile {
+  background-image: url(images/image1.png);
+}
+.addxm {
+  
+}
+.exxm {
+  
 }
 
-.code {
-  float: right;
+
+.center-wrapper {
+  
+}
+.article-wrapper {
+  
+}
+.no1 {
+  
 }
 
-.wallet {
-  float: right;
-}
-.wallet p {
-  float: left;
-}
 
-.BlogButton {
-  background-color: rgba(120, 210, 255, 0.3);
+.right-wrapper {
+  float:right;
 }
-
-.GameButton {
-  background-color: rgba(120, 210, 255, 0.3);
-}
-
-.enterButton {
-  background-color: rgba(120, 210, 255, 0.3);
-}
-
-.BlogButton :hover{
-  background-color: rgba(120, 210, 255, 0.6);
-}
-
-.GameButton :hover{
-  background-color: rgba(120, 210, 255, 0.6);
-}
-
-.enterButton :hover{
-  background-color: rgba(120, 210, 255, 0.6);
+.category {
+  background-image: url(images/image1.png);
 }
