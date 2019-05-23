@@ -17,7 +17,7 @@ p {
 header {
   height: 80px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.95);
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -30,19 +30,15 @@ header {
   position:absolute;
 }
 
-.center-header {
+.center-header a {
   position:absolute;
-  top: 0;
+  top: 10px;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 10px;
   margin: auto;
   width:300px;
   height:100%;
-}
-.icon {
-  height: 60px;
-  width: 300px;
   background-color: rgba(20, 200, 200, 1);
 }
 
