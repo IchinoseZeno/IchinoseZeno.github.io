@@ -98,3 +98,7 @@ header {
   height: 5%;
   background-color: rgba(0, 0, 50, 0.8);
 }
+
+.category p {
+  color: pink;
+}
