@@ -14,7 +14,7 @@ p {
 header {
   height: 60px;
   width: 100%;
-  background-color: rgba(0, 100, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -30,7 +30,7 @@ header {
 
 .left-wrapper {
   float:left;
-  height: 700px;
+  height: 1700px;
   width: 27%;
   top: 60px;
   background-color: rgba(0, 0, 50, 0.8);
@@ -60,7 +60,7 @@ header {
 
 .right-wrapper {
   float:right;
-  height: 100%;
+  height: 2100px;
   width: 27%;
   top: 60px;
   background-color: rgba(0, 0, 50, 0.8);
