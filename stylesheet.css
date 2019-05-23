@@ -22,7 +22,7 @@ header {
 
 
 .main-wrapper {
-  background-image: url(images/image1.png);
+  background-image: url("images/image1.png");
 }
 
 
@@ -30,7 +30,7 @@ header {
   float:left;
 }
 .profile {
-  background-image: url(images/image1.png);
+  background-image: url("images/image1.png");
 }
 .addxm {
   
@@ -55,5 +55,5 @@ header {
   float:right;
 }
 .category {
-  background-image: url(images/image1.png);
+  background-image: url("images/image1.png");
 }
