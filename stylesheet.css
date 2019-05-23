@@ -15,7 +15,7 @@ p {
 header {
   height: 60px;
   width: 100%;
-  background-color: rgba(0, 110, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -41,7 +41,7 @@ a.icon {
 }
 
 
-.left-wrapper {
+.left {
   position:absolute;
   height: 1700px;
   width: 27%;
@@ -64,7 +64,7 @@ a.icon {
 }
 
 
-.center-wrapper {
+.center {
   position:absolute;
   margin: 0;
   top: 120px;
@@ -80,15 +80,17 @@ a.icon {
 }
 
 
-.right-wrapper {
+.right {
   position:absolute;
-  position: relative;
   height: 2100px;
   width: 18%;
   top: 60px;
   right: 0;
   background-color: rgba(0, 0, 50, 0.8);
   z-index: 100;
+}
+.category-wrapper {
+  position: relative;
 }
 .category {
   position:absolute;
