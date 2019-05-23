@@ -28,15 +28,15 @@ header {
 
 .leftToCenter-header.delighter {
   position:absolute;
-  left: 0;
   width:300px;
   height:100%;
   background-color: rgba(200, 200, 200, 1);
 }
 .leftToCenter-header.delighter.started {
-  left: 0;
+  position:absolute;
 }
-.leftToCenter-header {
+.leftToCenter-header.delighter.started.ended {
+  position:absolute;
   left: 45%;
 }
 
@@ -117,6 +117,5 @@ header {
   background-color: rgba(0, 20, 50, 0.9);
 }
 .category p {
-  color: green;
+  color: pink;
 }
-
