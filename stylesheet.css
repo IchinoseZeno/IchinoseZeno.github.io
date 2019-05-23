@@ -14,14 +14,26 @@ p {
 header {
   height: 60px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
   z-index: 1000;
 }
 
+.left-header {
+  
+}
+.icon {
+  
+}
+
+.right-header {
+  
+}
+
 
 .main-wrapper {
+  position: relative;
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 10, 0.8);
@@ -29,6 +41,7 @@ header {
 
 
 .left-wrapper {
+  position:absolute;
   float:left;
   height: 1700px;
   width: 27%;
@@ -49,7 +62,9 @@ header {
 
 
 .center-wrapper {
-  
+  position:absolute;
+  margin: auto;
+  width: 55%;/*100-(left-wrapper width+right-wrapper width)*/
 }
 .article-wrapper {
   
@@ -60,9 +75,10 @@ header {
 
 
 .right-wrapper {
+  position:absolute;
   float:right;
   height: 2100px;
-  width: 27%;
+  width: 18%;
   top: 60px;
   background-color: rgba(0, 0, 50, 0.8);
   z-index: 100;
