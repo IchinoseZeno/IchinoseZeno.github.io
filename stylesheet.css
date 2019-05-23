@@ -9,7 +9,7 @@ a {
 }
 
 p {
-  color:glay;
+  color: rgba(180, 180, 180, 1);
 }
 
 header {
@@ -25,7 +25,7 @@ header {
   
 }
 .icon {
-  
+  background-color: rgba(200, 200, 200, 1);
 }
 
 .right-header {
@@ -50,14 +50,16 @@ header {
   z-index: 100;
 }
 .profile {
-  height: 700px;
-  background-color: rgba(50, 0, 0, 0.8);
+  height: 500px;
+  background-color: rgba(60, 0, 0, 0.8);
 }
 .addxm {
-  
+  height: 200px;
+  background-color: rgba(40, 0, 0, 0.8);
 }
 .exxm {
-  
+  height: 200px;
+  background-color: rgba(20, 0, 0, 0.8);
 }
 
 
