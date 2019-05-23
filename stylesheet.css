@@ -65,9 +65,11 @@ header {
 .addxm {
   height: 200px;
   background-color: rgba(40, 0, 0, 0.8);
+}
+.addimage {
+  height: 200px;
+  background-color: rgba(40, 0, 0, 0.8);
   width:200px;
-  background-image: url("image/image2.png");
-  background-size: cover;
 }
 .exxm {
   height: 200px;
@@ -84,7 +86,7 @@ header {
   background-color: rgba(0, 50, 50, 0.8);
 }
 .article-wrapper {
-
+  
 }
 .no1 {
 
@@ -112,5 +114,5 @@ header {
   background-color: rgba(0, 20, 50, 0.9);
 }
 .category p {
-  color: white;
+  color: pink;
 }
