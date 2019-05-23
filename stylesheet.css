@@ -92,6 +92,7 @@ header {
 .category-wrapper {
   position: relative;
   border: 1px solid #aaa;
+  height: 100%;
 }
 .category {
   position:absolute;
