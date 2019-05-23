@@ -22,12 +22,19 @@ header {
 
 
 .main-wrapper {
+  height: 100%;
+  width: 100%;
   background-image: url("images/image1.png");
 }
 
 
 .left-wrapper {
   float:left;
+  height: 700px;
+  width: 27%;
+  top: 60px;
+  background-color: rgba(0, 0, 50, 0.8);
+  z-index: 100
 }
 .profile {
   background-image: url("images/image1.png");
@@ -53,6 +60,11 @@ header {
 
 .right-wrapper {
   float:right;
+  height: 100%;
+  width: 27%;
+  top: 60px;
+  background-color: rgba(0, 0, 50, 0.8);
+  z-index: 100;
 }
 .category {
   background-image: url("images/image1.png");
