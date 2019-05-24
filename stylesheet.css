@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   padding: 0;
   font-family: "Hiragino Kaku Gothic ProN";
@@ -9,8 +9,6 @@ a {
 }
 
 p {
-  margin: 0;
-  padding: 0;
   color: rgba(180, 180, 180, 1);
 }
 
@@ -26,17 +24,15 @@ header {
   
 }
 
-.leftToCenter-header.delighter {
+.leftToCenter-header {
   position:absolute;
+  left: -100px;
+  transition: all .5s;
   width:300px;
   height:100%;
   background-color: rgba(200, 200, 200, 1);
 }
-.leftToCenter-header.delighter.started {
-  position:absolute;
-}
-.leftToCenter-header.delighter.started.ended {
-  position:absolute;
+.leftToCenter-header.js-active {
   left: 45%;
 }
 
