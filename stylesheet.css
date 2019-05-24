@@ -12,6 +12,7 @@ p {
 
 .header-wrapper {
   height: 72px;
+  width: 100vw;
   background-color: rgba(125, 200, 115, 1);
   position: fixed;
   z-index: 1000;
@@ -24,95 +25,3 @@ p {
   left: 0;
   width: 200px;/*R画像を使うときはautoにして画像の幅に合うようにする*/
 }
-
-
-/*
-.main-wrapper {
-  height: 92vh;
-  background-color: rgba(222, 254, 254, 1);
-  position: fixed;
-  z-index: 100;
-}
-.main-block {
-  height: auto;
-  background-color: rgba(255, 255, 255, 1);
-  position: absolute;
-  top: 0;
-  left: 20px;
-  right: 20px;
-  bottom: 46vh;
-}
-
-
-
-.article-wrapper {
-  height: auto;
-  background-color: rgba(231, 242, 254, 1);
-  position: relative;
-}
-.article-block {
-  height: auto;
-  background-color: rgba(255, 255, 255, 1);
-  position: absolute;
-  margin: 20px 20%;
-}
-
-
-
-.profile-wrapper {
-  height: auto;
-  background-color: rgba(224, 254, 231, 1);
-  position: relative;
-}
-.profile-left-block {
-  height: auto;
-  background-color: rgba(255, 255, 255, 1);
-  position: absolute;
-  top: 60px;
-  left: 4vh;
-  bottom: 20px;
-  width: 30vh;
-}
-.profile-right-block {
-  height: auto;
-  background-color: rgba(255, 255, 255, 1);
-  position: absolute;
-  top: 60px;
-  left: 40vh;
-  bottom: 20px;
-  width: 60vh;
-}
-
-
-
-.category-footer-wrapper {
-  height: 100vh;
-  background-color: rgba(253, 242, 230, 1);
-  position: relative;
-}
-.category-title-block {
-  height: 81px;
-  background-color: rgba(255, 255, 255, 1);
-  position: absolute;
-  margin: 27px 25vh 18px 0;
-}
-.category-content-fx-block {
-  height: 320;
-  background-color: rgba(255, 255, 255, 0.8);
-  position: absolute;
-  top: 126px;
-  left: 0;
-  right: 0;
-  width: 400px;
-}
-.foooter-block {
-  height: auto;
-  background-color: rgba(255, 255, 255, 1);
-  position: absolute;
-  top: 473px;
-  min-height: 100px;
-}
-*/
-
-
-
