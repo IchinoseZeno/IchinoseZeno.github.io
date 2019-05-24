@@ -27,7 +27,7 @@
 
 .main-wrapper {
   height: 92vh;
-  background-color: rgba(222, 254, 254, 0.5);
+  background-color: rgba(222, 254, 254, 1);
   position: fixed;
   z-index: 100;
 }
@@ -110,7 +110,3 @@
   top: 473px;
   min-height: 100px;
 }
-
-
-
-
