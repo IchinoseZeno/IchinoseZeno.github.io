@@ -90,9 +90,10 @@ h3 {
   background-color: rgba(98, 98, 98, 1);
   position: absolute ;
   top: 60px;
-  right: 66vw;
+  left: 4vw;
   bottom: 20px;
   width: 360px;
+  z-index: 10;
 }
 .profile-right-block {
   height: auto;
@@ -135,7 +136,6 @@ h3 {
   position: absolute ;
   bottom: 0;
 }
-
 
 
 
