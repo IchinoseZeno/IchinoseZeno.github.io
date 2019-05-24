@@ -1,3 +1,6 @@
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,114 +8,115 @@
 }
 
 p {
-  color: black;
+  color: rgb(107, 107, 107);
 }
 
+h1 {
+    
+}
 
+h2 {
+  font-size: 55px;
+}
+
+h3 {
+    
+}
 
 .header-wrapper {
-  height: i;
+  height: 72px;
   width: 100vw;
   background-color: rgba(125, 200, 115, 1);
-  position: fixed;
+  position: fixed ;
   z-index: 1000;
+  
 }
 .header-block {
-  height: auto;
-  background-color: rgba(255, 200, 255, 1);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 200px;/*R画像を使うときはautoにして画像の幅に合うようにする*/
+  height: inherit;
+  background-color: rgba(225, 171, 129, 1);
+  
 }
 
 
 
 .main-wrapper {
   height: 92vh;
-  background-color: rgba(222, 254, 254, 1);
-  position: fixed;
-  z-index: 100;
+  background-color: rgba(158, 166, 206, 1);
+  position: relative ;
+  
 }
 .main-block {
-  height: auto;
-  background-color: rgba(255, 255, 255, 1);
-  position: absolute;
-  top: 0;
-  left: 20px;
-  right: 20px;
-  bottom: 46vh;
+  background-color: rgba(129, 166, 214, 1);
+  position: absolute ;
+    
 }
 
 
 
 .article-wrapper {
   height: auto;
-  background-color: rgba(231, 242, 254, 1);
-  position: relative;
+  background-color: rgba(235, 118, 121, 1);
+  padding: 20px 15vw;
 }
 .article-block {
   height: auto;
-  background-color: rgba(255, 255, 255, 1);
-  position: absolute;
-  margin: 20px 20%;
+  background-color: rgba(200, 200, 200, 1);
 }
 
 
 
 .profile-wrapper {
-  height: auto;
-  background-color: rgba(224, 254, 231, 1);
-  position: relative;
+  height: 680px;
+  background-color: rgba(133, 117, 218, 1);
+  position: relative ;
 }
 .profile-left-block {
   height: auto;
-  background-color: rgba(255, 255, 255, 1);
-  position: absolute;
+  background-color: rgba(98, 98, 98, 1);
+  position: absolute ;
   top: 60px;
-  left: 4vh;
+  right: 66vw;
   bottom: 20px;
-  width: 30vh;
+  width: 360px;
 }
 .profile-right-block {
   height: auto;
-  background-color: rgba(255, 255, 255, 1);
-  position: absolute;
+  background-color: rgba(36, 26, 168, 1);
+  position: absolute ;
   top: 60px;
-  left: 40vh;
+  left: 40vw;
   bottom: 20px;
-  width: 60vh;
+  width: 60vw;
 }
 
 
 
 .category-footer-wrapper {
-  height: 100vh;
-  background-color: rgba(253, 242, 230, 1);
-  position: relative;
+  height: 473px;
+  background-color: rgba(159, 77, 190, 1);
+  position: relative ;
 }
 .category-title-block {
   height: 81px;
-  background-color: rgba(255, 255, 255, 1);
-  position: absolute;
-  margin: 27px 25vh 18px 0;
+  background-color: rgba(243, 243, 243, 1);
+  width: 75%;
+  position: absolute ;
+  top: 27px;
 }
 .category-content-fx-block {
-  height: 320;
-  background-color: rgba(255, 255, 255, 0.8);
-  position: absolute;
+  height: 320px;
+  background-color: rgba(207, 55, 64, 0.8);
+  position: absolute ;
   top: 126px;
-  left: 0;
-  right: 0;
   width: 400px;
 }
 .foooter-block {
-  height: auto;
-  background-color: rgba(255, 255, 255, 1);
-  position: absolute;
-  top: 473px;
+  height: 120px;
+  width: 100%;
   min-height: 100px;
+  background-color: rgba(26, 27, 37, 1);
+  position: absolute ;
+  bottom: 0;
 }
-
 
 
