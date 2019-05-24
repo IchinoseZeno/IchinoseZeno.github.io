@@ -4,24 +4,122 @@
   font-family: "Hiragino Kaku Gothic ProN";
 }
 
-p {
-  color: black;
+a {
+  text-decoration:none;
 }
 
+p {
+  color: rgba(180, 180, 180, 1);
+}
 
-
-.header-wrapper {
+header {
   height: 72px;
-  width: 100vw;
-  background-color: rgba(125, 200, 115, 1);
+  width: 100%;
+  background-color: rgba(135, 200, 215, 1);
   position: fixed;
+  top: 0;
   z-index: 1000;
 }
-.header-block {
-  height: auto;
-  background-color: rgba(255, 200, 255, 1);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 200px;/*R画像を使うときはautoにして画像の幅に合うようにする*/
+.header-wrapper {
+
+}
+
+.leftToCenter-header {
+  position:absolute;
+  left: 0px;
+  transition: all .35s;
+  width: auto;
+  height:100%;
+}
+.leftToCenter-header.js-active {
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+
+}
+.net-image {
+  opacity: 1;
+  transition: all .3s;
+}
+.net-image.js-active {
+  opacity: 0;
+}
+
+
+.right-header {
+  position:absolute;
+}
+
+
+.main-wrapper {
+  position: relative;
+  background-color: rgba(180, 180, 120, 1);
+}
+
+
+.left {
+  position:absolute;
+  height: 1700px;
+  width: 27%;
+  top: 80px;
+  background-color: rgba(0, 0, 50, 0.8);
+  z-index: 100;
+}
+.profile {
+  border: 1px solid #aaa;
+  height: 500px;
+  background-color: rgba(60, 0, 0, 0.8);
+}
+.addxm {
+  height: 200px;
+  background-color: rgba(40, 0, 0, 0.8);
+}
+.addimage {
+  height: 200px;
+  background-color: rgba(40, 0, 0, 0.8);
+  width:200px;
+}
+.exxm {
+  height: 200px;
+  background-color: rgba(20, 0, 0, 0.8);
+}
+
+
+.center {
+  position:absolute;
+  margin: 0;
+  top: 120px;
+  left: 27%;
+  width: 55%;/*100-(left-wrapper width+right-wrapper width)*/
+  background-color: rgba(0, 50, 50, 0.8);
+}
+.article-wrapper {
+
+}
+.no1 {
+
+}
+
+
+.right {
+  position:absolute;
+  height: 2100px;
+  width: 18%;
+  top: 80px;
+  right: 0;
+  background-color: rgba(0, 0, 50, 0.8);
+  z-index: 100;
+}
+.category-wrapper {
+  position: relative;
+  height: 100%;
+}
+.category {
+  position:absolute;
+  top: 95%;
+  height: 5%;
+  width: 100%;
+  background-color: rgba(0, 20, 50, 0.9);
+}
+.category p {
+  color: pink;
 }
