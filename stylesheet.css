@@ -196,9 +196,23 @@ a {
   width: 310px;
 }
 .snslink-block {
-  background-color: rgba(62, 62, 62, 1);
   width: 100%;
-  height: 80px;
+  height: 180px;
+}
+.snslink-twitter {
+  background-color: rgba(162, 62, 62, 1);
+  width: 100%;
+  height: 60px;
+}
+.snslink-youtube {
+  background-color: rgba(62, 162, 62, 1);
+  width: 100%;
+  height: 60px;
+}
+.snslink-linea {
+  background-color: rgba(62, 62, 162, 1);
+  width: 100%;
+  height: 60px;
 }
 .category-block {
   background-color: rgba(82, 62, 62, 1);
@@ -222,6 +236,3 @@ a {
   width: 100%;
   height: 200px;
 }
-
-
-
