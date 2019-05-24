@@ -39,7 +39,7 @@ h3 {
 .main-wrapper {
   height: 92vh;
   width: 100vw;
-  background-color: rgba(158, 166, 206, 0.0);
+  background-color: rgba(158, 166, 206, 0);
   position: fixed ;
   z-index: 100;
 }
