@@ -32,9 +32,13 @@ header {
   height:100%;
 }
 .leftToCenter-header.js-active {
-  left: 45%-85px;
+  left: 45%;
 }
-.leftToCenter-header.js-active.net-image {
+.net-image {
+  opacity: 1;
+  transition: all .3s;
+}
+.net-image.jsactive {
   opacity: 0;
 }
 
