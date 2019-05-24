@@ -1,84 +1,30 @@
 * {
+  box-sizing: content-box;
   margin: 0;
   padding: 0;
   font-family: "Hiragino Kaku Gothic ProN";
 }
-
-p {
-  color: white;
-}
-
-h1 {
-  font-size: 55px;
-}
-
-h2 {
-  font-size: 55px;
-}
-
-h3 {
-  font-size: 35px;
-  color: white;
-}
-
+/*
 .header-wrapper {
   height: 72px;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0);
   position: fixed ;
   z-index: 1000;
-  
 }
 .header-block {
-  height: inherit;
-  background-color: rgba(0, 0, 0, 1);
-  
+  height: inherit;background-color: rgba(0, 0, 0, 1);
 }
 .header-block p {
   font-size: 68px;
-  margin-left: 40px;
-  color: rgba(255, 255, 255, 1);
 }
-
-
-.main-wrapper {
-  height: 92vh;
-  width: 100vw;
-  position: fixed ;
-  z-index: 100;
-}
-.main-block {
-  
-}
-.main-block img{
-  height: 46vh;
-  width: auto;
-  top: 30%;
-  left: 50%;
-  -webkit-transform: translateY(-50%) translateX(-50%);
-  transform: translateY(-50%) translateX(-50%);
-  position: absolute ;
-}
-
-
-
-.hidden-wrapper {/*メインを固定したら高さ判定がなくなったので高さのために追加*/
-  height: 92vh;
-  width: 100vw;
-  background-color: rgba(32, 32, 32, 1);
-  position: relative ;
-}
-
-
 
 .article-wrapper {
   height: 800px;
-  background-color: rgba(2, 0, 0, 1);
+  background-color: rgba(12, 12, 12, 1);
   position: relative ;
 }
 .article-title-block {
   height: 81px;
-  background-color: rgba(168, 176, 40, 1);
   position: absolute ;
   width: 75%;
   top: 27px;
@@ -86,80 +32,104 @@ h3 {
 }
 .article-block {
   height: auto;
-  background-color: rgba(53, 53, 53, 1);
   position: absolute ;
   top: 130px;
   margin: 0 15%;
 }
-
-
-
-.profile-wrapper {
-  height: 680px;
-  background-color: rgba(32, 32, 32, 1);
-  position: relative ;
-}
-.profile-title-block {
-  height: 81px;
-  background-color: rgba(61, 66, 182, 1);
-  width: 75%;
-  position: absolute ;
-  top: 27px;
-}
-.profile-left-right-block {
-  height: 400px;
-  background-color: rgba(175, 116, 19, 0);
-  width: 100%;
-  position: absolute ;
-  top: 130px;
-}
-.profile-left-block {
-  height: 400px;
-  background-color: rgba(98, 98, 98, 1);
-  width: 30%;
-  position: absolute ;
-  top: 30px;
-  left: 5%;
-}
-.profile-right-block {
-  height: 400px;
-  background-color: rgba(107, 114, 114, 1);
-  width: 45%;
-  position: absolute ;
-  top: 30px;
-  right: 5%;
-}
-
-
-
-.category-footer-wrapper {
-  height: 773px;
-  background-color: rgba(3, 3, 5, 1);
-  position: relative ;
-}
-.category-title-block {
-  height: 81px;
-  background-color: rgba(229, 82, 68, 1);
-  width: 75%;
-  position: absolute ;
-  top: 27px;
-}
-.category-content-fx-block {
-  height: 400px;
-  background-color: rgba(147, 148, 157, 1);
-  position: absolute ;
-  top: 130px;
-  left: 50%;
-  -webkit-transform: translateX(-50%) ;
-  width: 320px;
-  text-align: center;
-}
-.foooter-block {
-  height: 120px;
-  width: 100%;
-  min-height: 100px;
-  background-color: rgba(26, 27, 37, 1);
-  position: absolute ;
+*/
+.base {
+  background-color: rgba(12, 12, 12, 1);
+  max-width: 3000px;
+  min-height: 3000px;
+  position: absolute;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  right: 0;
   bottom: 0;
+}
+
+
+
+
+
+.header-wrapper {
+  
+}
+
+.title-contents {
+  
+}
+.title-main-block {
+  
+}
+.title-sub-block {
+  
+}
+
+
+.link-contents {
+  
+}
+.link-home {
+  
+}
+.link-profile {
+  
+}
+.link-movie {
+  
+}
+.link-contact {
+  
+}
+
+
+
+
+
+.main-wrapper {
+  
+}
+
+.left-contents {
+  
+}
+.profile-block {
+  
+}
+.ad-block {
+  
+}
+.ad-description-block {
+  
+}
+
+.center-contents {
+  
+}
+.article-block {
+  
+}
+
+.right-contents {
+  
+}
+.snslink-block {
+  
+}
+.category-block {
+  
+}
+.archive-block {
+  
+}
+
+
+
+
+
+.footer-wrapper {
+  
 }
 
