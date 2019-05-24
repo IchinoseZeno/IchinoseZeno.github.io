@@ -1,9 +1,9 @@
 function　scrollFunction() {
     var this_y = window.pageYOffset;
     if (this_y > 240) {
-        document.getElementById("send").classList.add("js-active");
+        document.getElementsByClassName(".leftToCenter-header, .net-image").classList.add("js-active");
     } else {
-        document.getElementById("send").classList.remove("js-active");
+        document.getElementsByClassName(".leftToCenter-header, .net-image").classList.remove("js-active");
     }
 }
 window.onload = function() {
