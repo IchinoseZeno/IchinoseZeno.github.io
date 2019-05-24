@@ -30,7 +30,7 @@ h3 {
 }
 .header-block {
   height: inherit;
-  background-color: rgba(225, 171, 129, 1);
+  background-color: rgba(233, 249, 224, 1);
   
 }
 
@@ -39,7 +39,6 @@ h3 {
 .main-wrapper {
   height: 92vh;
   width: 100vw;
-  background-color: rgba(158, 166, 206, 1);
   position: fixed ;
   z-index: 100;
 }
@@ -49,7 +48,7 @@ h3 {
 .main-block img{
   height: 46vh;
   width: auto;
-  top: 50%;
+  top: 30%;
   left: 50%;
   -webkit-transform: translateY(-50%) translateX(-50%);
   transform: translateY(-50%) translateX(-50%);
@@ -68,21 +67,24 @@ h3 {
 
 
 .article-wrapper {
-  height: auto;
+  height: 300px;
   background-color: rgba(235, 118, 121, 1);
-  padding: 20px 15vw;
-  
+  position: relative ;
 }
 .article-title-block {
   height: 81px;
   background-color: rgba(243, 243, 243, 1);
-  width: 75%;
   position: absolute ;
+  width: 75%;
   top: 27px;
+  margin: 0 0 27px 0;
 }
 .article-block {
   height: auto;
   background-color: rgba(200, 200, 200, 1);
+  position: absolute ;
+  top: 130px;
+  margin: 0 15vh;
 }
 
 
@@ -99,12 +101,15 @@ h3 {
   position: absolute ;
   top: 27px;
 }
+.profile-left-right-block {
+    
+}
 .profile-left-block {
   height: auto;
   background-color: rgba(98, 98, 98, 1);
   position: absolute ;
   top: 60px;
-  right: 66vw;
+  left: 4vw;
   bottom: 70px;
   width: 360px;
 }
@@ -113,7 +118,7 @@ h3 {
   background-color: rgba(36, 26, 168, 1);
   position: absolute ;
   top: 60px;
-  left: 40vw;
+  left: 60vw;
   bottom: 70px;
   width: 60vw;
 }
@@ -148,3 +153,4 @@ h3 {
   position: absolute ;
   bottom: 0;
 }
+
