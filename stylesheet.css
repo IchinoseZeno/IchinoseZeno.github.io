@@ -12,13 +12,13 @@ p {
 
 .header-wrapper {
   height: 72px;
-  background-color: rgba(135, 200, 215, 1);
+  background-color: rgba(125, 200, 115, 1);
   position: fixed;
   z-index: 1000;
 }
 .header-block {
   height: auto;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 200, 255, 1);
   position: absolute;
   top: 0;
   left: 0;
@@ -26,7 +26,7 @@ p {
 }
 
 
-
+/*
 .main-wrapper {
   height: 92vh;
   background-color: rgba(222, 254, 254, 1);
@@ -112,7 +112,7 @@ p {
   top: 473px;
   min-height: 100px;
 }
-
+*/
 
 
 
