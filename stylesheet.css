@@ -102,24 +102,22 @@ h3 {
   top: 27px;
 }
 .profile-left-right-block {
-    
+  height: 800px;
+  background-color: rgba(36, 26, 168, 1);
+  position: absolute ;
+  top: 200px;
+  left: 60vw;
+  bottom: 70px;
+  width: 60vw;
 }
 .profile-left-block {
-  height: auto;
+  height: 700px;
   background-color: rgba(98, 98, 98, 1);
-  position: absolute ;
-  top: 60px;
-  left: 4vw;
-  bottom: 70px;
   width: 360px;
 }
 .profile-right-block {
   height: auto;
   background-color: rgba(36, 26, 168, 1);
-  position: absolute ;
-  top: 60px;
-  left: 60vw;
-  bottom: 70px;
   width: 60vw;
 }
 
@@ -154,4 +152,5 @@ h3 {
   position: absolute ;
   bottom: 0;
 }
+
 
