@@ -42,10 +42,10 @@ a {
 }
 */
 .base {
-  background-color: rgba(67, 67, 67, 1);
+  background-color: rgba(255, 255, 255, 1);
   width: 100%;
   max-width: 1400px;
-  min-width: 700px;
+  min-width: 600px;
   margin: 0 auto;
 }
 
@@ -54,7 +54,7 @@ a {
 
 
 .header-wrapper {
-  background-color: rgba(241, 168, 167, 0.3);
+  background-color: rgba(31, 35, 39, 1);
   height: 180px;
 }
 
@@ -62,10 +62,13 @@ a {
   height: 120px;
 }
 .title-main-block {
-  
+  color: rgba(250, 250, 252, 1);
+  padding: 0 0 0 10px ;
+  font-size: 23px;
 }
 .title-sub-block {
-  
+  color: rgba(250, 250, 252, 1);
+  padding: 0 0 0 10px ;
 }
 
 
@@ -100,7 +103,7 @@ a {
   display: block;
   color: rgba(32, 32, 32, 1);
   background-color: rgba(247, 247, 247, 1);
-  border-color: rgba(32, 32, 32, 1);
+  border-color: rgba(155, 155, 155, 1);
   border-style: solid;
   transition: 0.5s;
 }
@@ -114,38 +117,44 @@ a {
 
 
 .main-wrapper {
-  background-color: rgba(182, 177, 231, 0.2);
+  background-color: rgba(255, 255, 255, 1);
   position: relative;
   min-height: 1000px;
 }
 
 .center-contents {
-  background-color: rgba(164, 246, 162, 0.2);
-  margin: 0 200px;
+  background-color: rgba(255, 255, 255, 1);
+  margin: 0 230px;
+  padding: 12px;
 }
 .article-block {
-  background-color: rgba(247, 161, 240, 0.2);
+  background-color: rgba(227, 228, 229, 1);
+  padding-top: 20px;
+  padding-left: 120px;
+  padding-bottom: 100px;
+  font-size: 17px;
 }
 
 .left-contents {
   position: absolute;
   top: 0;
-  width: 200px;
+  width: 230px;
 }
 .profile-block {
-  background-color: rgba(247, 161, 240, 0.2);
+  background-color: rgba(255, 255, 255, 1);
   padding: 12px;
 }
 .ad-block {
-  background-color: rgba(238, 222, 170, 0.2);
+  background-color: rgba(244, 139, 141, 1);
   height: 100px;
 }
 .ad-description-block {
-  background-color: rgba(247, 161, 240, 0.2);
+  background-color: rgba(255, 255, 255, 1);
   padding: 0 12px;
+  height: 70px;
 }
 .blog-link-block {
-  background-color: rgba(238, 222, 170, 0.2);
+  background-color: rgba(218, 217, 220, 1);
   padding: 0 12px;
 }
 .profile-block img{
@@ -165,7 +174,7 @@ a {
   position: absolute;
   top: 0px;
   right: 0;
-  width: 200px;
+  width: 230px;
 }
 .snslink-block {
   background-color: rgba(247, 161, 240, 0.2);
@@ -204,7 +213,7 @@ a {
   height: 360px;
 }
 .archive-block {
-  background-color: rgba(247, 161, 240, 0.2);
+  background-color: rgba(218, 160, 248, 0.2);
   padding: 12px;
   height: 360px;
 }
@@ -216,8 +225,5 @@ a {
 .footer-wrapper {
   background-color: rgba(62, 82, 82, 0.2);
 }
-
-
-
 
 
