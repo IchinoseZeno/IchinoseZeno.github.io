@@ -92,13 +92,21 @@ a {
   width: 15%;
 }
 .link {
-    
+  text-align: center;
+  padding: 0px 12px;
 }
 .link a {
-    
+  display: block;
+  color: rgba(32, 32, 32, 1);
+  background-color: rgba(247, 247, 247, 1);
+  border-color: rgba(32, 32, 32, 1);
+  border-style: solid;
+  transition: 0.5s;
 }
 .link a:hover {
-    
+  color: rgba(247, 247, 247, 1);
+  background-color: rgba(60, 60, 60, 1);
+  border-color: rgba(32, 32, 32, 1);
 }
 
 
@@ -124,19 +132,31 @@ a {
   width: 200px;
 }
 .profile-block {
-  
+  background-color: rgba(247, 161, 240, 0.2);
+  padding: 12px;
 }
 .ad-block {
-  
+  background-color: rgba(238, 222, 170, 0.2);
+  height: 100px;
 }
 .ad-description-block {
-  
+  background-color: rgba(247, 161, 240, 0.2);
+  padding: 0 12px;
 }
 .blog-link-block {
-  
+  background-color: rgba(238, 222, 170, 0.2);
+  padding: 0 12px;
 }
 .profile-block img{
   width: 100%;
+}
+.blog-link-block a {
+  display: block;
+  color: rgba(32, 32, 32, 1);
+  background-color: rgba(247, 247, 247, 1);
+  border-color: rgba(32, 32, 32, 1);
+  border-style: solid;
+  transition: 0.5s;
 }
 
 
@@ -147,22 +167,45 @@ a {
   width: 200px;
 }
 .snslink-block {
-  
+  background-color: rgba(247, 161, 240, 0.2);
+  padding: 12px;
+  text-align: center ;
 }
-.snslink-twitter {
-  
+.snslink-twitter a {
+  display: block;
+  color: rgba(212, 100, 55, 1);
+  background-color: rgba(247, 247, 247, 1);
+  border-color: rgba(32, 32, 32, 1);
+  border-style: solid;
+  transition: 0.5s;
+  color: rgba(98, 212, 208, 1);
 }
-.snslink-youtube {
-  
+.snslink-youtube a {
+  display: block;
+  color: rgba(50, 10, 14, 1);
+  background-color: rgba(247, 247, 247, 1);
+  border-color: rgba(32, 32, 32, 1);
+  border-style: solid;
+  transition: 0.5s;
+  margin: 8px 0;
 }
-.snslink-linea {
-  
+.snslink-linea a {
+  display: block;
+  color: rgba(76, 218, 54, 1);
+  background-color: rgba(247, 247, 247, 1);
+  border-color: rgba(32, 32, 32, 1);
+  border-style: solid;
+  transition: 0.5s;
 }
 .category-block {
-  
+  background-color: rgba(238, 222, 170, 0.2);
+  padding: 12px;
+  height: 360px;
 }
 .archive-block {
-  
+  background-color: rgba(247, 161, 240, 0.2);
+  padding: 12px;
+  height: 360px;
 }
 
 
@@ -172,5 +215,4 @@ a {
 .footer-wrapper {
   background-color: rgba(62, 82, 82, 0.2);
 }
-
 
