@@ -123,16 +123,17 @@ a {
 }
 
 .center-contents {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(225, 226, 228, 1);
   margin: 0 230px;
   padding: 12px;
 }
 .article-block {
-  background-color: rgba(227, 228, 229, 1);
+  background-color: rgba(247, 255, 255, 1);
   padding-top: 20px;
-  padding-left: 120px;
+  padding-left: 9%;
   padding-bottom: 100px;
   font-size: 17px;
+  min-height: 1000px;
 }
 
 .left-contents {
@@ -145,7 +146,7 @@ a {
   padding: 12px;
 }
 .ad-block {
-  background-color: rgba(244, 139, 141, 1);
+  background-color: rgba(15, 1, 2, 1);
   height: 100px;
 }
 .ad-description-block {
@@ -177,7 +178,7 @@ a {
   width: 230px;
 }
 .snslink-block {
-  background-color: rgba(247, 161, 240, 0.2);
+  background-color: rgba(190, 193, 193, 0.2);
   padding: 12px;
   text-align: center ;
 }
@@ -208,12 +209,12 @@ a {
   transition: 0.5s;
 }
 .category-block {
-  background-color: rgba(238, 222, 170, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   padding: 12px;
   height: 360px;
 }
 .archive-block {
-  background-color: rgba(218, 160, 248, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   padding: 12px;
   height: 360px;
 }
@@ -225,5 +226,6 @@ a {
 .footer-wrapper {
   background-color: rgba(62, 82, 82, 0.2);
 }
+
 
 
