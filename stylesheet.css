@@ -216,7 +216,7 @@ a {
   background-color: rgba(250, 250, 250, 1);
   overflow: scroll;
   padding: 12px;
-  height: auto;
+  height: 300px;
 }
 .archive-block {
   background-color: rgba(255, 255, 255, 0.2);
@@ -227,7 +227,7 @@ a {
   background-color: rgba(250, 250, 250, 1);
   overflow: scroll;
   padding: 12px;
-  height: auto;
+  height: 300px;
 }
 
 
